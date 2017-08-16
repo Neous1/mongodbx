@@ -1,9 +1,14 @@
 {
   "name": "mongodbx",
   "version": "1.0.0",
+  "repository": "https://github.com/Neous1/mongodbx",
   "description": "M101x Introduction to MongoDB using the MEAN Stack",
   "main": "index.js",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.28",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
