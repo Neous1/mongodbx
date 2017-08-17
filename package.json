@@ -4,6 +4,12 @@
   "repository": "https://github.com/Neous1/mongodbx",
   "description": "M101x Introduction to MongoDB using the MEAN Stack",
   "main": "index.js",
+
+    "scripts": {
+    "test": "mocha test.js",
+    "watch": "gulp watch"
+  },
+
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-mocha": "^4.3.1",

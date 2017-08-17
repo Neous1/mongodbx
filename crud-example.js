@@ -25,11 +25,11 @@ mongodb.MongoClient.connect(uri, function (error, db) {
             process.exit(1);
         }
 
-    db.collection("movies").
-    find({"rating.audience":{"$gte": 90}}).
-    toArray(function(error,docs){
+    // db.collection("movies").
+    // find({"rating.audience":{"$gte": 90}}).
+    // toArray(function(error,docs){
 
-    })
+    // })
 
         db.collection("movies").find().toArray(function (error, docs) {
             if (error) {

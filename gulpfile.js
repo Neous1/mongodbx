@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
+gulp=require("gulp-watch")
 
 gulp.task('test', function() {
   gulp.
