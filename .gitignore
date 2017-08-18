@@ -1,6 +1,10 @@
-*
+
 node_modules
 
 courseHandouts
 
-!Homework/chapter1/node_modules
+homework/chapter1/node_modules
+homework/chapter2/*
+homework/chapter3/node_modules
+homework/chapter4/node_modules
+homework/chapter5/node_modules
